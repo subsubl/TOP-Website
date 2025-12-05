@@ -6,11 +6,94 @@
         "booking": "Rezervacija",
         "prices": "Cene",
         "references": "Reference",
-        "contact": "Kontakt"
+        "contact": "Kontakt",
+        "about": "O nas",
+        "coaches": "Trenerji",
+        "careers": "Kariera"
     },
     "hero": {
         "title": "Sprostite Svoj Potencial",
-        "subtitle": "Pridružite se TOP – vrhunski destinaciji za odličnost v padlu in tenisu.",
-        "cta": "Rezerviraj Igrišče"
+        "subtitle": "Pridružite se TOP – vrhunski destinaciji za odličnost v padlu in tenisu. Doživite razburljivost loparskih športov v naših najsodobnejših objektih s profesionalnim trenerstvom.",
+        "subtitle2": "Obvladajte svoj servis, izpopolnite voleje in izboljšajte nogobran. Od začetnikov do naprednih igralcev, ponujamo programe za vse ravni znanja.",
+        "volleyball": "Kmalu: tečaji odbojke!",
+        "cta": "Rezerviraj Igrišče",
+        "viewClasses": "Poglej Tečaje"
+    },
+    "benefits": {
+        "title": "Zakaj TOP?",
+        "coaching": {
+            "title": "Strokovno Trenerstvo",
+            "description": "Naši certificirani trenerji vas bodo vodili do odličnosti z osebnimi treningi."
+        },
+        "courts": {
+            "title": "Vrhunska Igrišča",
+            "description": "Sodobna igrišča za tenis in padel, profesionalno vzdrževana."
+        },
+        "community": {
+            "title": "Živahna Skupnost",
+            "description": "Pridružite se skupnosti strastnih igralcev in naredite nove prijatelje."
+        }
+    },
+    "testimonials": {
+        "title": "Kaj pravijo naši člani",
+        "viewAll": "Poglej vse reference"
+    },
+    "classes": {
+        "title": "Naši Programi",
+        "subtitle": "Ne glede na to, ali ste popolni začetnik ali ambiciozen profesionalec, imamo tečaj za vas.",
+        "privateLesson": "Ne vidite tega, kar iščete? Ponujamo tudi zasebne ure prilagojene vašim potrebam.",
+        "bookPrivate": "Rezerviraj Zasebno Uro →"
+    },
+    "course": {
+        "level": "Raven",
+        "schedule": "Urnik",
+        "time": "Čas",
+        "pricing": "Cena",
+        "about": "O tem tečaju",
+        "whatYouLearn": "Kaj se boste naučili",
+        "ready": "Pripravljeni, da se pridružite?",
+        "readyText": "Prijavite se na ta tečaj in začnite izboljševati svojo igro še danes.",
+        "bookClass": "Rezerviraj Ta Tečaj",
+        "details": "Podatki o tečaju",
+        "backToClasses": "Nazaj na vse tečaje",
+        "notFound": "Tečaj ni najden"
+    },
+    "prices": {
+        "title": "Cenik",
+        "subtitle": "Pregledni in dostopni cenik za vse naše storitve",
+        "courtRentals": "Najem Igrišč",
+        "lessons": "Tečaji in Ure",
+        "perHour": "na uro",
+        "perSession": "na sejo",
+        "contact": "Za več informacij nas kontaktirajte"
+    },
+    "references": {
+        "title": "Reference",
+        "subtitle": "Preberite, kaj naši člani pravijo o svojih izkušnjah v TOP"
+    },
+    "booking": {
+        "title": "Rezervacija",
+        "subtitle": "Rezervirajte igrišče ali se prijavite na tečaj",
+        "name": "Ime",
+        "email": "E-pošta",
+        "phone": "Telefon",
+        "date": "Datum",
+        "time": "Čas",
+        "type": "Vrsta rezervacije",
+        "court": "Najem Igrišča",
+        "class": "Tečaj",
+        "message": "Sporočilo (opcijsko)",
+        "submit": "Pošlji Rezervacijo",
+        "success": "Hvala! Vaša rezervacija je bila prejeta."
+    },
+    "footer": {
+        "about": "O TOP",
+        "aboutText": "TOP je vrhunska šola tenisa in padla, namenjena igralcem vseh ravni. Naša poslanstvo je spodbujanje ljubezni do športa skozi odlično trenerstvo.",
+        "programs": "Programi",
+        "contact": "Kontakt",
+        "address": "Naslov",
+        "phone": "Telefon",
+        "email": "E-pošta",
+        "rights": "Vse pravice pridržane."
     }
 }
