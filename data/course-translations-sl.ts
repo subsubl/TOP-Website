@@ -2,10 +2,8 @@ export const courseTranslationsSl = {
     'adult-fundamentals': {
         title: 'Osnove za Odrasle',
         tagline: 'Obvladajte Osnove',
-        description: 'Popolno za začetnike ali tiste, ki se vračajo k tenisu po premoru. Ta celovit program pokriva vse bistvene tehnike vključno s pravilnim prijemom, nogoinim delom in mehaniko zamahov. Naši certificirani trener
-
-ji zagotavljajo osebno pozornost v majhnih skupinah, tako da zgradite trdne temelje.Naučili se boste pravil igre, pozicioniranja na igrišču in osnovne strategije ter pridobili samozavest na igrišču.',
-    whatYouLearn: [
+        description: 'Popolno za začetnike ali tiste, ki se vračajo k tenisu po premoru. Ta celovit program pokriva vse bistvene tehnike vključno s pravilnim prijemom, nogoinom delom in mehaniko zamahov. Naši certificirani trenerji zagotavljajo osebno pozornost v majhnih skupinah, tako da zgradite trdne temelje. Naučili se boste pravil igre, pozicioniranja na igrišču in osnovne strategije ter pridobili samozavest na igrišču.',
+        whatYouLearn: [
             'Pravilne tehnike prijema za forehand in backhand',
             'Osnovno nogino delo in pozicioniranje na igrišču',
             'Osnovni udarci in mehanika zamaha',
@@ -13,7 +11,7 @@ ji zagotavljajo osebno pozornost v majhnih skupinah, tako da zgradite trdne teme
             'Pravila in sistem točkovanja',
             'Uvod v igro posameznikov in dvojic'
         ]
-  },
+    },
     'junior-academy': {
         title: 'Prihodnje Zvezde (8-14 let)',
         tagline: 'Razvijajte Prvake',
