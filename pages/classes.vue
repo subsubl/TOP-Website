@@ -12,182 +12,26 @@
 
       <div class="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:gap-x-8">
         
-        <!-- Class Card 1 -->
-        <NuxtLink :to="localePath('/courses/adult-fundamentals')" class="group relative bg-white border border-gray-200 rounded-lg flex flex-col overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
-           <div class="aspect-w-3 aspect-h-2 bg-gray-200 group-hover:opacity-75 sm:aspect-none sm:h-48">
-              <div class="bg-blue-300 w-full h-full flex items-center justify-center text-blue-800 font-bold text-lg">Adult Beginner</div>
+        <!-- Dynamic Class Cards -->
+        <NuxtLink 
+          v-for="course in courses" 
+          :key="course.slug"
+          :to="localePath(`/courses/${course.slug}`)" 
+          class="group relative bg-white border border-gray-200 rounded-lg flex flex-col overflow-hidden shadow-sm hover:shadow-lg transition-shadow"
+        >
+           <div class="aspect-w-3 aspect-h-2 bg-gray-200 group-hover:opacity-75 sm:aspect-none sm:h-48 overflow-hidden">
+              <img 
+                :src="course.image" 
+                :alt="getTranslation(course.slug, 'title')" 
+                class="w-full h-full object-cover"
+              />
            </div>
            <div class="flex-1 p-4 space-y-2 flex flex-col">
-             <h3 class="text-lg font-medium text-gray-900">Adult Fundamentals</h3>
-             <p class="text-sm text-gray-500 flex-grow">Master the basics of grip, swing mechanics, and court movement. Perfect for those new to the sport.</p>
+             <h3 class="text-lg font-medium text-gray-900">{{ getTranslation(course.slug, 'title') }}</h3>
+             <p class="text-sm text-gray-500 flex-grow">{{ getTranslation(course.slug, 'tagline') }}</p>
              <div class="pt-4">
-                <span class="inline-block bg-blue-100 rounded-full px-3 py-1 text-sm font-semibold text-blue-800 mr-2">Mon/Wed</span>
-                <span class="inline-block bg-gray-100 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">6:00 PM</span>
-             </div>
-           </div>
-        </NuxtLink>
-
-        <!-- Class Card 2 -->
-        <NuxtLink :to="localePath('/courses/junior-academy')" class="group relative bg-white border border-gray-200 rounded-lg flex flex-col overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
-           <div class="aspect-w-3 aspect-h-2 bg-gray-200 group-hover:opacity-75 sm:aspect-none sm:h-48">
-              <div class="bg-green-300 w-full h-full flex items-center justify-center text-green-800 font-bold text-lg">Junior Academy</div>
-           </div>
-           <div class="flex-1 p-4 space-y-2 flex flex-col">
-             <h3 class="text-lg font-medium text-gray-900">Future Stars (Ages 8-14)</h3>
-             <p class="text-sm text-gray-500 flex-grow">Developmental program focusing on technique, strategy, and sportsmanship.</p>
-             <div class="pt-4">
-                <span class="inline-block bg-green-100 rounded-full px-3 py-1 text-sm font-semibold text-green-800 mr-2">Sat</span>
-                <span class="inline-block bg-gray-100 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">9:00 AM</span>
-             </div>
-           </div>
-        </NuxtLink>
-
-        <!-- Class Card 3 -->
-        <NuxtLink :to="localePath('/courses/intermediate-skills')" class="group relative bg-white border border-gray-200 rounded-lg flex flex-col overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
-           <div class="aspect-w-3 aspect-h-2 bg-gray-200 group-hover:opacity-75 sm:aspect-none sm:h-48">
-              <div class="bg-purple-300 w-full h-full flex items-center justify-center text-purple-800 font-bold text-lg">Intermediate</div>
-           </div>
-           <div class="flex-1 p-4 space-y-2 flex flex-col">
-             <h3 class="text-lg font-medium text-gray-900">Intermediate Skills</h3>
-             <p class="text-sm text-gray-500 flex-grow">Take your game to the next level with advanced tactics, spin techniques, and match play scenarios.</p>
-             <div class="pt-4">
-                <span class="inline-block bg-purple-100 rounded-full px-3 py-1 text-sm font-semibold text-purple-800 mr-2">Tue/Thu</span>
-                <span class="inline-block bg-gray-100 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">7:00 PM</span>
-             </div>
-           </div>
-        </NuxtLink>
-
-        <!-- Class Card 4 -->
-        <NuxtLink :to="localePath('/courses/competition-prep')" class="group relative bg-white border border-gray-200 rounded-lg flex flex-col overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
-           <div class="aspect-w-3 aspect-h-2 bg-gray-200 group-hover:opacity-75 sm:aspect-none sm:h-48">
-              <div class="bg-red-300 w-full h-full flex items-center justify-center text-red-800 font-bold text-lg">Advanced</div>
-           </div>
-           <div class="flex-1 p-4 space-y-2 flex flex-col">
-             <h3 class="text-lg font-medium text-gray-900">Competition Prep</h3>
-             <p class="text-sm text-gray-500 flex-grow">Tournament-level training with match strategies, mental game, and high-intensity drills.</p>
-             <div class="pt-4">
-                <span class="inline-block bg-red-100 rounded-full px-3 py-1 text-sm font-semibold text-red-800 mr-2">Mon/Wed/Fri</span>
-                <span class="inline-block bg-gray-100 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">5:00 PM</span>
-             </div>
-           </div>
-        </NuxtLink>
-
-        <!-- Class Card 5 -->
-        <NuxtLink :to="localePath('/courses/doubles-mastery')" class="group relative bg-white border border-gray-200 rounded-lg flex flex-col overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
-           <div class="aspect-w-3 aspect-h-2 bg-gray-200 group-hover:opacity-75 sm:aspect-none sm:h-48">
-              <div class="bg-yellow-300 w-full h-full flex items-center justify-center text-yellow-800 font-bold text-lg">Doubles Tactics</div>
-           </div>
-           <div class="flex-1 p-4 space-y-2 flex flex-col">
-             <h3 class="text-lg font-medium text-gray-900">Doubles Mastery</h3>
-             <p class="text-sm text-gray-500 flex-grow">Perfect your doubles game with positioning, communication, and team strategies.</p>
-             <div class="pt-4">
-                <span class="inline-block bg-yellow-100 rounded-full px-3 py-1 text-sm font-semibold text-yellow-800 mr-2">Sat</span>
-                <span class="inline-block bg-gray-100 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">11:00 AM</span>
-             </div>
-           </div>
-        </NuxtLink>
-
-        <!-- Class Card 6 -->
-        <NuxtLink :to="localePath('/courses/womens-circle')" class="group relative bg-white border border-gray-200 rounded-lg flex flex-col overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
-           <div class="aspect-w-3 aspect-h-2 bg-gray-200 group-hover:opacity-75 sm:aspect-none sm:h-48">
-              <div class="bg-pink-300 w-full h-full flex items-center justify-center text-pink-800 font-bold text-lg">Ladies Only</div>
-           </div>
-           <div class="flex-1 p-4 space-y-2 flex flex-col">
-             <h3 class="text-lg font-medium text-gray-900">Women's Tennis Circle</h3>
-             <p class="text-sm text-gray-500 flex-grow">Supportive environment for women to improve skills, build confidence, and make friends.</p>
-             <div class="pt-4">
-                <span class="inline-block bg-pink-100 rounded-full px-3 py-1 text-sm font-semibold text-pink-800 mr-2">Wed</span>
-                <span class="inline-block bg-gray-100 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">10:00 AM</span>
-             </div>
-           </div>
-        </NuxtLink>
-
-        <!-- Class Card 7 -->
-        <NuxtLink :to="localePath('/courses/paddle-power')" class="group relative bg-white border border-gray-200 rounded-lg flex flex-col overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
-           <div class="aspect-w-3 aspect-h-2 bg-gray-200 group-hover:opacity-75 sm:aspect-none sm:h-48">
-              <div class="bg-indigo-300 w-full h-full flex items-center justify-center text-indigo-800 font-bold text-lg">Paddle Intensive</div>
-           </div>
-           <div class="flex-1 p-4 space-y-2 flex flex-col">
-             <h3 class="text-lg font-medium text-gray-900">Paddle Power</h3>
-             <p class="text-sm text-gray-500 flex-grow">Paddle-specific course covering walls, lobs, and the unique dynamics of this exciting sport.</p>
-             <div class="pt-4">
-                <span class="inline-block bg-indigo-100 rounded-full px-3 py-1 text-sm font-semibold text-indigo-800 mr-2">Thu</span>
-                <span class="inline-block bg-gray-100 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">6:30 PM</span>
-             </div>
-           </div>
-        </NuxtLink>
-
-        <!-- Class Card 8 -->
-        <NuxtLink :to="localePath('/courses/active-seniors')" class="group relative bg-white border border-gray-200 rounded-lg flex flex-col overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
-           <div class="aspect-w-3 aspect-h-2 bg-gray-200 group-hover:opacity-75 sm:aspect-none sm:h-48">
-              <div class="bg-teal-300 w-full h-full flex items-center justify-center text-teal-800 font-bold text-lg">Seniors 55+</div>
-           </div>
-           <div class="flex-1 p-4 space-y-2 flex flex-col">
-             <h3 class="text-lg font-medium text-gray-900">Active Seniors</h3>
-             <p class="text-sm text-gray-500 flex-grow">Stay active and social! Low-impact exercises with focus on fun and fitness.</p>
-             <div class="pt-4">
-                <span class="inline-block bg-teal-100 rounded-full px-3 py-1 text-sm font-semibold text-teal-800 mr-2">Tue/Thu</span>
-                <span class="inline-block bg-gray-100 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">10:00 AM</span>
-             </div>
-           </div>
-        </NuxtLink>
-
-        <!-- Class Card 9 -->
-        <NuxtLink :to="localePath('/courses/mini-tennis')" class="group relative bg-white border border-gray-200 rounded-lg flex flex-col overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
-           <div class="aspect-w-3 aspect-h-2 bg-gray-200 group-hover:opacity-75 sm:aspect-none sm:h-48">
-              <div class="bg-cyan-300 w-full h-full flex items-center justify-center text-cyan-800 font-bold text-lg">Kids 5-7</div>
-           </div>
-           <div class="flex-1 p-4 space-y-2 flex flex-col">
-             <h3 class="text-lg font-medium text-gray-900">Mini Tennis Stars</h3>
-             <p class="text-sm text-gray-500 flex-grow">Introduction to tennis through fun games, modified equipment, and basic motor skills.</p>
-             <div class="pt-4">
-                <span class="inline-block bg-cyan-100 rounded-full px-3 py-1 text-sm font-semibold text-cyan-800 mr-2">Sat</span>
-                <span class="inline-block bg-gray-100 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">10:00 AM</span>
-             </div>
-           </div>
-        </NuxtLink>
-
-        <!-- Class Card 10 -->
-        <NuxtLink :to="localePath('/courses/serve-workshop')" class="group relative bg-white border border-gray-200 rounded-lg flex flex-col overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
-           <div class="aspect-w-3 aspect-h-2 bg-gray-200 group-hover:opacity-75 sm:aspect-none sm:h-48">
-              <div class="bg-lime-300 w-full h-full flex items-center justify-center text-lime-800 font-bold text-lg">Serve Clinic</div>
-           </div>
-           <div class="flex-1 p-4 space-y-2 flex flex-col">
-             <h3 class="text-lg font-medium text-gray-900">Serve Workshop</h3>
-             <p class="text-sm text-gray-500 flex-grow">Dedicated sessions to perfect your serve technique, power, and accuracy.</p>
-             <div class="pt-4">
-                <span class="inline-block bg-lime-100 rounded-full px-3 py-1 text-sm font-semibold text-lime-800 mr-2">Sun</span>
-                <span class="inline-block bg-gray-100 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">2:00 PM</span>
-             </div>
-           </div>
-        </NuxtLink>
-
-        <!-- Class Card 11 -->
-        <NuxtLink :to="localePath('/courses/net-play')" class="group relative bg-white border border-gray-200 rounded-lg flex flex-col overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
-           <div class="aspect-w-3 aspect-h-2 bg-gray-200 group-hover:opacity-75 sm:aspect-none sm:h-48">
-              <div class="bg-amber-300 w-full h-full flex items-center justify-center text-amber-800 font-bold text-lg">Volley Master</div>
-           </div>
-           <div class="flex-1 p-4 space-y-2 flex flex-col">
-             <h3 class="text-lg font-medium text-gray-900">Net Play Excellence</h3>
-             <p class="text-sm text-gray-500 flex-grow">Master volleys, overheads, and net positioning for dominant court presence.</p>
-             <div class="pt-4">
-                <span class="inline-block bg-amber-100 rounded-full px-3 py-1 text-sm font-semibold text-amber-800 mr-2">Fri</span>
-                <span class="inline-block bg-gray-100 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">6:00 PM</span>
-             </div>
-           </div>
-        </NuxtLink>
-
-        <!-- Class Card 12 -->
-        <NuxtLink :to="localePath('/courses/match-sessions')" class="group relative bg-white border border-gray-200 rounded-lg flex flex-col overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
-           <div class="aspect-w-3 aspect-h-2 bg-gray-200 group-hover:opacity-75 sm:aspect-none sm:h-48">
-              <div class="bg-emerald-300 w-full h-full flex items-center justify-center text-emerald-800 font-bold text-lg">Match Play</div>
-           </div>
-           <div class="flex-1 p-4 space-y-2 flex flex-col">
-             <h3 class="text-lg font-medium text-gray-900">Competitive Match Sessions</h3>
-             <p class="text-sm text-gray-500 flex-grow">Practice in real match scenarios with scoring, umpiring, and competitive atmosphere.</p>
-             <div class="pt-4">
-                <span class="inline-block bg-emerald-100 rounded-full px-3 py-1 text-sm font-semibold text-emerald-800 mr-2">Sun</span>
-                <span class="inline-block bg-gray-100 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">4:00 PM</span>
+                <span :class="`inline-block bg-${course.color}-100 rounded-full px-3 py-1 text-sm font-semibold text-${course.color}-800 mr-2`">{{ course.schedule }}</span>
+                <span class="inline-block bg-gray-100 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">{{ course.duration }}</span>
              </div>
            </div>
         </NuxtLink>
@@ -206,5 +50,20 @@
 </template>
 
 <script setup>
+import { courses } from '~/data/courses'
+import { courseTranslationsSl } from '~/data/course-translations-sl'
+
 const localePath = useLocalePath()
+const { locale } = useI18n()
+
+// Function to get translation for a course
+const getTranslation = (slug, field) => {
+  // If Slovenian locale, use Slovenian translations
+  if (locale.value === 'sl' && courseTranslationsSl[slug]) {
+    return courseTranslationsSl[slug][field]
+  }
+  // Otherwise use English from courses data
+  const course = courses.find(c => c.slug === slug)
+  return course ? course[field] : ''
+}
 </script>

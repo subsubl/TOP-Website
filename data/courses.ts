@@ -9,6 +9,7 @@ export interface Course {
     level: string
     pricing: string
     color: string
+    image: string
 }
 
 export const courses: Course[] = [
@@ -29,7 +30,8 @@ export const courses: Course[] = [
         duration: '6:00 PM - 7:30 PM',
         level: 'Beginner',
         pricing: '$25 per session',
-        color: 'blue'
+        color: 'blue',
+        image: '/tennis_coaching.png'
     },
     {
         slug: 'junior-academy',
@@ -48,7 +50,8 @@ export const courses: Course[] = [
         duration: '9:00 AM - 11:00 AM',
         level: 'Intermediate',
         pricing: '$30 per session',
-        color: 'green'
+        color: 'green',
+        image: '/junior_academy_action.png'
     },
     {
         slug: 'intermediate-skills',
@@ -67,7 +70,8 @@ export const courses: Course[] = [
         duration: '7:00 PM - 8:30 PM',
         level: 'Intermediate',
         pricing: '$30 per session',
-        color: 'purple'
+        color: 'purple',
+        image: '/tennis_coaching.png'
     },
     {
         slug: 'competition-prep',
@@ -86,7 +90,8 @@ export const courses: Course[] = [
         duration: '5:00 PM - 7:00 PM',
         level: 'Advanced',
         pricing: '$40 per session',
-        color: 'red'
+        color: 'red',
+        image: '/tennis_coaching.png'
     },
     {
         slug: 'doubles-mastery',
@@ -105,7 +110,8 @@ export const courses: Course[] = [
         duration: '11:00 AM - 12:30 PM',
         level: 'All Levels',
         pricing: '$28 per session',
-        color: 'yellow'
+        color: 'yellow',
+        image: '/family_tennis_day.png'
     },
     {
         slug: 'womens-circle',
@@ -124,7 +130,8 @@ export const courses: Course[] = [
         duration: '10:00 AM - 11:30 AM',
         level: 'All Levels',
         pricing: '$25 per session',
-        color: 'pink'
+        color: 'pink',
+        image: '/womens_circle_class.png'
     },
     {
         slug: 'paddle-power',
@@ -143,7 +150,8 @@ export const courses: Course[] = [
         duration: '6:30 PM - 8:00 PM',
         level: 'All Levels',
         pricing: '$30 per session',
-        color: 'indigo'
+        color: 'indigo',
+        image: '/paddle_court.png'
     },
     {
         slug: 'active-seniors',
@@ -162,7 +170,8 @@ export const courses: Course[] = [
         duration: '10:00 AM - 11:30 AM',
         level: 'Beginner to Intermediate',
         pricing: '$22 per session',
-        color: 'teal'
+        color: 'teal',
+        image: '/womens_social_group.png'
     },
     {
         slug: 'mini-tennis',
@@ -181,7 +190,8 @@ export const courses: Course[] = [
         duration: '10:00 AM - 11:00 AM',
         level: 'Beginner',
         pricing: '$20 per session',
-        color: 'cyan'
+        color: 'cyan',
+        image: '/kids_tennis_group.png'
     },
     {
         slug: 'serve-workshop',
@@ -200,7 +210,8 @@ export const courses: Course[] = [
         duration: '2:00 PM - 3:30 PM',
         level: 'Intermediate to Advanced',
         pricing: '$35 per session',
-        color: 'lime'
+        color: 'lime',
+        image: '/tennis_coaching.png'
     },
     {
         slug: 'net-play',
@@ -219,7 +230,8 @@ export const courses: Course[] = [
         duration: '6:00 PM - 7:30 PM',
         level: 'Intermediate to Advanced',
         pricing: '$32 per session',
-        color: 'amber'
+        color: 'amber',
+        image: '/tennis_coaching.png'
     },
     {
         slug: 'match-sessions',
@@ -238,7 +250,8 @@ export const courses: Course[] = [
         duration: '4:00 PM - 6:00 PM',
         level: 'Intermediate to Advanced',
         pricing: '$30 per session',
-        color: 'emerald'
+        color: 'emerald',
+        image: '/junior_academy_action.png'
     }
 ]
 
