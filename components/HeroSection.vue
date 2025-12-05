@@ -16,8 +16,11 @@
              On The Court
           </span>
         </h1>
-        <p class="text-lg md:text-xl text-blue-100 mb-10 max-w-lg leading-relaxed">
-           Join TOP – The premier destination for Paddle and Tennis excellence. Elevate your game, meet new friends, and enjoy the thrill of the sport.
+        <p class="text-lg md:text-xl text-blue-100 mb-6 max-w-lg leading-relaxed">
+           Join TOP – The premier destination for Paddle and Tennis excellence. Experience the thrill of racquet sports in our state-of-the-art facilities with professional coaching.
+        </p>
+        <p class="text-base md:text-lg text-blue-200 mb-10 max-w-lg leading-relaxed">
+           Master your serve, perfect your volley, and improve your footwork. From beginners to advanced players, we offer programs for all skill levels. <span class="text-yellow-300 font-semibold">Coming soon: Volleyball courses!</span>
         </p>
         <div class="flex flex-col sm:flex-row gap-4">
           <NuxtLink :to="localePath('/booking')" class="inline-flex justify-center items-center px-8 py-4 border border-transparent text-base font-bold rounded-full text-white bg-orange-500 hover:bg-orange-600 md:text-lg transition-transform hover:scale-105 shadow-lg">
@@ -29,9 +32,9 @@
         </div>
       </div>
       <div class="md:w-1/2 relative z-10">
-         <!-- Placeholder for Hero Image - In real app, use nuxt-img -->
+         <!-- Paddle Court Image -->
          <div class="rounded-2xl overflow-hidden shadow-2xl transform rotate-2 hover:rotate-0 transition-transform duration-500">
-            <img src="https://images.unsplash.com/photo-1622163642998-1ea36b1ad365?q=80&w=2938&auto=format&fit=crop" alt="Paddle Court" class="w-full h-auto object-cover md:h-[500px]" />
+            <img src="/paddle_court.png" alt="Modern Paddle Tennis Court" class="w-full h-auto object-cover md:h-[500px]" />
          </div>
       </div>
     </div>
