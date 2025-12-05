@@ -32,9 +32,11 @@
         <!-- CTA & Lang -->
         <div class="hidden md:flex items-center space-x-4">
            <div class="flex space-x-2 text-sm font-medium text-gray-500">
-             <NuxtLink :to="switchLocalePath('en')" :class="{ 'text-blue-600': $i18n.locale === 'en' }">EN</NuxtLink>
+             <NuxtLink :to="switchLocalePath('en')" :class="{ 'text-blue-600 font-bold': $i18n.locale === 'en' }">EN</NuxtLink>
              <span>|</span>
-             <NuxtLink :to="switchLocalePath('es')" :class="{ 'text-blue-600': $i18n.locale === 'es' }">ES</NuxtLink>
+             <NuxtLink :to="switchLocalePath('es')" :class="{ 'text-blue-600 font-bold': $i18n.locale === 'es' }">ES</NuxtLink>
+             <span>|</span>
+             <NuxtLink :to="switchLocalePath('sl')" :class="{ 'text-blue-600 font-bold': $i18n.locale === 'sl' }">SL</NuxtLink>
            </div>
            <NuxtLink :to="localePath('/booking')" class="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded-full text-sm font-medium transition-all shadow-md hover:shadow-lg">
              {{ $t('nav.booking') }}

@@ -1,0 +1,16 @@
+{
+    "welcome": "Dobrodošli v TOP",
+    "nav": {
+        "home": "Domov",
+        "classes": "Tečaji",
+        "booking": "Rezervacija",
+        "prices": "Cene",
+        "references": "Reference",
+        "contact": "Kontakt"
+    },
+    "hero": {
+        "title": "Sprostite Svoj Potencial",
+        "subtitle": "Pridružite se TOP – vrhunski destinaciji za odličnost v padlu in tenisu.",
+        "cta": "Rezerviraj Igrišče"
+    }
+}

@@ -13,7 +13,7 @@
       <div class="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:gap-x-8">
         
         <!-- Class Card 1 -->
-        <div class="group relative bg-white border border-gray-200 rounded-lg flex flex-col overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
+        <NuxtLink :to="localePath('/courses/adult-fundamentals')" class="group relative bg-white border border-gray-200 rounded-lg flex flex-col overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
            <div class="aspect-w-3 aspect-h-2 bg-gray-200 group-hover:opacity-75 sm:aspect-none sm:h-48">
               <div class="bg-blue-300 w-full h-full flex items-center justify-center text-blue-800 font-bold text-lg">Adult Beginner</div>
            </div>
@@ -25,7 +25,7 @@
                 <span class="inline-block bg-gray-100 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">6:00 PM</span>
              </div>
            </div>
-        </div>
+        </NuxtLink>
 
         <!-- Class Card 2 -->
         <div class="group relative bg-white border border-gray-200 rounded-lg flex flex-col overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
@@ -40,7 +40,7 @@
                 <span class="inline-block bg-gray-100 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">9:00 AM</span>
              </div>
            </div>
-        </div>
+        </NuxtLink>
 
         <!-- Class Card 3 -->
         <div class="group relative bg-white border border-gray-200 rounded-lg flex flex-col overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
@@ -55,7 +55,7 @@
                 <span class="inline-block bg-gray-100 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">7:00 PM</span>
              </div>
            </div>
-        </div>
+        </NuxtLink>
 
         <!-- Class Card 4 -->
         <div class="group relative bg-white border border-gray-200 rounded-lg flex flex-col overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
@@ -70,7 +70,7 @@
                 <span class="inline-block bg-gray-100 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">5:00 PM</span>
              </div>
            </div>
-        </div>
+        </NuxtLink>
 
         <!-- Class Card 5 -->
         <div class="group relative bg-white border border-gray-200 rounded-lg flex flex-col overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
@@ -85,7 +85,7 @@
                 <span class="inline-block bg-gray-100 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">11:00 AM</span>
              </div>
            </div>
-        </div>
+        </NuxtLink>
 
         <!-- Class Card 6 -->
         <div class="group relative bg-white border border-gray-200 rounded-lg flex flex-col overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
@@ -100,10 +100,10 @@
                 <span class="inline-block bg-gray-100 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">10:00 AM</span>
              </div>
            </div>
-        </div>
+        </NuxtLink>
 
         <!-- Class Card 7 -->
-        <div class="group relative bg-white border border-gray-200 rounded-lg flex flex-col overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
+        <NuxtLink :to="localePath('/courses/paddle-power')\" class="group relative bg-white border border-gray-200 rounded-lg flex flex-col overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
            <div class="aspect-w-3 aspect-h-2 bg-gray-200 group-hover:opacity-75 sm:aspect-none sm:h-48">
               <div class="bg-indigo-300 w-full h-full flex items-center justify-center text-indigo-800 font-bold text-lg">Paddle Intensive</div>
            </div>
@@ -115,10 +115,10 @@
                 <span class="inline-block bg-gray-100 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">6:30 PM</span>
              </div>
            </div>
-        </div>
+        </NuxtLink>
 
         <!-- Class Card 8 -->
-        <div class="group relative bg-white border border-gray-200 rounded-lg flex flex-col overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
+        <NuxtLink :to="localePath('/courses/active-seniors')" class="group relative bg-white border border-gray-200 rounded-lg flex flex-col overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
            <div class="aspect-w-3 aspect-h-2 bg-gray-200 group-hover:opacity-75 sm:aspect-none sm:h-48">
               <div class="bg-teal-300 w-full h-full flex items-center justify-center text-teal-800 font-bold text-lg">Seniors 55+</div>
            </div>
@@ -130,7 +130,7 @@
                 <span class="inline-block bg-gray-100 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">10:00 AM</span>
              </div>
            </div>
-        </div>
+        </NuxtLink>
 
         <!-- Class Card 9 -->
         <div class="group relative bg-white border border-gray-200 rounded-lg flex flex-col overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
@@ -145,7 +145,7 @@
                 <span class="inline-block bg-gray-100 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">10:00 AM</span>
              </div>
            </div>
-        </div>
+        </NuxtLink>
 
         <!-- Class Card 10 -->
         <div class="group relative bg-white border border-gray-200 rounded-lg flex flex-col overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
@@ -160,7 +160,7 @@
                 <span class="inline-block bg-gray-100 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">2:00 PM</span>
              </div>
            </div>
-        </div>
+        </NuxtLink>
 
         <!-- Class Card 11 -->
         <div class="group relative bg-white border border-gray-200 rounded-lg flex flex-col overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
@@ -175,7 +175,7 @@
                 <span class="inline-block bg-gray-100 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">6:00 PM</span>
              </div>
            </div>
-        </div>
+        </NuxtLink>
 
         <!-- Class Card 12 -->
         <div class="group relative bg-white border border-gray-200 rounded-lg flex flex-col overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
@@ -190,7 +190,7 @@
                 <span class="inline-block bg-gray-100 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">4:00 PM</span>
              </div>
            </div>
-        </div>
+        </NuxtLink>
 
       </div>
       
