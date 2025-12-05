@@ -8,24 +8,24 @@
             TOP<span class="text-orange-500">.</span>
           </span>
           <p class="text-gray-400 text-sm">
-            Elevating your game on and off the court. Join the community today.
+            {{ $t('footer.aboutText') }}
           </p>
         </div>
 
         <!-- Links -->
         <div>
-          <h3 class="text-lg font-semibold mb-4 text-orange-400">School</h3>
+          <h3 class="text-lg font-semibold mb-4 text-orange-400">{{ $t('footer.about') }}</h3>
           <ul class="space-y-2 text-sm text-gray-400">
-            <li><NuxtLink :to="localePath('/')" class="hover:text-white transition-colors">Home</NuxtLink></li>
-            <li><NuxtLink :to="localePath('/about')" class="hover:text-white transition-colors">About Us</NuxtLink></li>
-            <li><NuxtLink :to="localePath('/coaches')" class="hover:text-white transition-colors">Our Coaches</NuxtLink></li>
-            <li><NuxtLink :to="localePath('/careers')" class="hover:text-white transition-colors">Careers</NuxtLink></li>
+            <li><NuxtLink :to="localePath('/')" class="hover:text-white transition-colors">{{ $t('nav.home') }}</NuxtLink></li>
+            <li><NuxtLink :to="localePath('/about')" class="hover:text-white transition-colors">{{ $t('nav.about') }}</NuxtLink></li>
+            <li><NuxtLink :to="localePath('/coaches')" class="hover:text-white transition-colors">{{ $t('nav.coaches') }}</NuxtLink></li>
+            <li><NuxtLink :to="localePath('/careers')" class="hover:text-white transition-colors">{{ $t('nav.careers') }}</NuxtLink></li>
           </ul>
         </div>
 
         <!-- Links -->
         <div>
-          <h3 class="text-lg font-semibold mb-4 text-orange-400">Programs</h3>
+          <h3 class="text-lg font-semibold mb-4 text-orange-400">{{ $t('footer.programs') }}</h3>
           <ul class="space-y-2 text-sm text-gray-400">
             <li><NuxtLink :to="localePath('/classes')" class="hover:text-white transition-colors">Adult Classes</NuxtLink></li>
             <li><NuxtLink :to="localePath('/classes')" class="hover:text-white transition-colors">Junior Academy</NuxtLink></li>
@@ -36,7 +36,7 @@
 
         <!-- Contact -->
         <div>
-          <h3 class="text-lg font-semibold mb-4 text-orange-400">Contact</h3>
+          <h3 class="text-lg font-semibold mb-4 text-orange-400">{{ $t('footer.contact') }}</h3>
           <ul class="space-y-2 text-sm text-gray-400">
             <li class="flex items-start">
                <span class="mr-2">📍</span> 123 Sports Avenue, Active City
@@ -52,7 +52,7 @@
       </div>
 
       <div class="border-t border-gray-800 mt-12 pt-8 text-center text-sm text-gray-500">
-        &copy; {{ new Date().getFullYear() }} TOP Paddle & Tennis School. All rights reserved.
+        &copy; {{ new Date().getFullYear() }} TOP Paddle & Tennis School. {{ $t('footer.rights') }}
       </div>
     </div>
   </footer>

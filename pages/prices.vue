@@ -2,9 +2,9 @@
   <div class="bg-gray-50 py-16 px-4 mb-20 sm:px-6 lg:px-8 lg:py-24">
     <div class="max-w-7xl mx-auto">
       <div class="text-center sm:flex sm:flex-col sm:align-center">
-        <h1 class="text-5xl font-extrabold text-gray-900 sm:text-center">Pricing Plans</h1>
+        <h1 class="text-5xl font-extrabold text-gray-900 sm:text-center">{{ $t('prices.title') }}</h1>
         <p class="mt-5 text-xl text-gray-500 sm:text-center">
-          Simple, transparent pricing for everyone. Join the club that fits your lifestyle.
+          {{ $t('prices.subtitle') }}
         </p>
       </div>
       
@@ -57,7 +57,7 @@
       
       <div class="mt-10 text-center">
          <NuxtLink :to="localePath('/booking')" class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-orange-600 hover:bg-orange-700">
-           Book Now
+           {{ $t('nav.booking') }}
          </NuxtLink>
       </div>
     </div>
