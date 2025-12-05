@@ -1,0 +1,16 @@
+{
+    "welcome": "Welcome to TOP",
+    "nav": {
+        "home": "Home",
+        "classes": "Classes",
+        "booking": "Booking",
+        "prices": "Prices",
+        "references": "References",
+        "contact": "Contact"
+    },
+    "hero": {
+        "title": "Unleash Your Potential",
+        "subtitle": "Join TOP – The premier destination for Paddle and Tennis excellence.",
+        "cta": "Book a Court"
+    }
+}

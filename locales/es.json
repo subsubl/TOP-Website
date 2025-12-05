@@ -1,0 +1,16 @@
+{
+    "welcome": "Bienvenido a TOP",
+    "nav": {
+        "home": "Inicio",
+        "classes": "Clases",
+        "booking": "Reservas",
+        "prices": "Precios",
+        "references": "Referencias",
+        "contact": "Contacto"
+    },
+    "hero": {
+        "title": "Libera Tu Potencial",
+        "subtitle": "Únete a TOP – El destino principal para la excelencia en Pádel y Tenis.",
+        "cta": "Reservar Pista"
+    }
+}

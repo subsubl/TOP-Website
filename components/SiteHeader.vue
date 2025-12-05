@@ -11,20 +11,20 @@
         </div>
 
         <!-- Desktop Navigation -->
-        <nav class="hidden md:flex space-x-8">
-          <NuxtLink :to="localePath('/')" class="text-gray-600 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors">
+        <nav class="hidden md:flex space-x-2">
+          <NuxtLink :to="localePath('/')" class="text-gray-600 hover:text-blue-600 hover:bg-blue-50 px-4 py-2 rounded-full text-sm font-medium transition-all duration-200">
             {{ $t('nav.home') }}
           </NuxtLink>
-          <NuxtLink :to="localePath('/classes')" class="text-gray-600 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors">
+          <NuxtLink :to="localePath('/classes')" class="text-gray-600 hover:text-blue-600 hover:bg-blue-50 px-4 py-2 rounded-full text-sm font-medium transition-all duration-200">
             {{ $t('nav.classes') }}
           </NuxtLink>
-          <NuxtLink :to="localePath('/booking')" class="text-gray-600 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors">
+          <NuxtLink :to="localePath('/booking')" class="text-gray-600 hover:text-blue-600 hover:bg-blue-50 px-4 py-2 rounded-full text-sm font-medium transition-all duration-200">
             {{ $t('nav.booking') }}
           </NuxtLink>
-          <NuxtLink :to="localePath('/prices')" class="text-gray-600 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors">
+          <NuxtLink :to="localePath('/prices')" class="text-gray-600 hover:text-blue-600 hover:bg-blue-50 px-4 py-2 rounded-full text-sm font-medium transition-all duration-200">
             {{ $t('nav.prices') }}
           </NuxtLink>
-          <NuxtLink :to="localePath('/references')" class="text-gray-600 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors">
+          <NuxtLink :to="localePath('/references')" class="text-gray-600 hover:text-blue-600 hover:bg-blue-50 px-4 py-2 rounded-full text-sm font-medium transition-all duration-200">
             {{ $t('nav.references') }}
           </NuxtLink>
         </nav>
