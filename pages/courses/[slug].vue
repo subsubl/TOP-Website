@@ -47,7 +47,7 @@
             <!-- Course Image -->
             <div class="rounded-lg overflow-hidden shadow-lg">
               <img 
-                :src="`/${course.image}`" 
+                :src="`/public/${course.image}`" 
                 :alt="displayCourse.title" 
                 class="w-full h-auto object-cover"
               />
