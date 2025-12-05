@@ -28,7 +28,7 @@
         </NuxtLink>
 
         <!-- Class Card 2 -->
-        <div class="group relative bg-white border border-gray-200 rounded-lg flex flex-col overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
+        <NuxtLink :to="localePath('/courses/junior-academy')" class="group relative bg-white border border-gray-200 rounded-lg flex flex-col overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
            <div class="aspect-w-3 aspect-h-2 bg-gray-200 group-hover:opacity-75 sm:aspect-none sm:h-48">
               <div class="bg-green-300 w-full h-full flex items-center justify-center text-green-800 font-bold text-lg">Junior Academy</div>
            </div>
@@ -43,7 +43,7 @@
         </NuxtLink>
 
         <!-- Class Card 3 -->
-        <div class="group relative bg-white border border-gray-200 rounded-lg flex flex-col overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
+        <NuxtLink :to="localePath('/courses/intermediate-skills')" class="group relative bg-white border border-gray-200 rounded-lg flex flex-col overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
            <div class="aspect-w-3 aspect-h-2 bg-gray-200 group-hover:opacity-75 sm:aspect-none sm:h-48">
               <div class="bg-purple-300 w-full h-full flex items-center justify-center text-purple-800 font-bold text-lg">Intermediate</div>
            </div>
@@ -58,7 +58,7 @@
         </NuxtLink>
 
         <!-- Class Card 4 -->
-        <div class="group relative bg-white border border-gray-200 rounded-lg flex flex-col overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
+        <NuxtLink :to="localePath('/courses/competition-prep')" class="group relative bg-white border border-gray-200 rounded-lg flex flex-col overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
            <div class="aspect-w-3 aspect-h-2 bg-gray-200 group-hover:opacity-75 sm:aspect-none sm:h-48">
               <div class="bg-red-300 w-full h-full flex items-center justify-center text-red-800 font-bold text-lg">Advanced</div>
            </div>
@@ -73,7 +73,7 @@
         </NuxtLink>
 
         <!-- Class Card 5 -->
-        <div class="group relative bg-white border border-gray-200 rounded-lg flex flex-col overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
+        <NuxtLink :to="localePath('/courses/doubles-mastery')" class="group relative bg-white border border-gray-200 rounded-lg flex flex-col overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
            <div class="aspect-w-3 aspect-h-2 bg-gray-200 group-hover:opacity-75 sm:aspect-none sm:h-48">
               <div class="bg-yellow-300 w-full h-full flex items-center justify-center text-yellow-800 font-bold text-lg">Doubles Tactics</div>
            </div>
@@ -88,7 +88,7 @@
         </NuxtLink>
 
         <!-- Class Card 6 -->
-        <div class="group relative bg-white border border-gray-200 rounded-lg flex flex-col overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
+        <NuxtLink :to="localePath('/courses/womens-circle')" class="group relative bg-white border border-gray-200 rounded-lg flex flex-col overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
            <div class="aspect-w-3 aspect-h-2 bg-gray-200 group-hover:opacity-75 sm:aspect-none sm:h-48">
               <div class="bg-pink-300 w-full h-full flex items-center justify-center text-pink-800 font-bold text-lg">Ladies Only</div>
            </div>
@@ -133,7 +133,7 @@
         </NuxtLink>
 
         <!-- Class Card 9 -->
-        <div class="group relative bg-white border border-gray-200 rounded-lg flex flex-col overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
+        <NuxtLink :to="localePath('/courses/mini-tennis')" class="group relative bg-white border border-gray-200 rounded-lg flex flex-col overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
            <div class="aspect-w-3 aspect-h-2 bg-gray-200 group-hover:opacity-75 sm:aspect-none sm:h-48">
               <div class="bg-cyan-300 w-full h-full flex items-center justify-center text-cyan-800 font-bold text-lg">Kids 5-7</div>
            </div>
@@ -148,7 +148,7 @@
         </NuxtLink>
 
         <!-- Class Card 10 -->
-        <div class="group relative bg-white border border-gray-200 rounded-lg flex flex-col overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
+        <NuxtLink :to="localePath('/courses/serve-workshop')" class="group relative bg-white border border-gray-200 rounded-lg flex flex-col overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
            <div class="aspect-w-3 aspect-h-2 bg-gray-200 group-hover:opacity-75 sm:aspect-none sm:h-48">
               <div class="bg-lime-300 w-full h-full flex items-center justify-center text-lime-800 font-bold text-lg">Serve Clinic</div>
            </div>
@@ -163,7 +163,7 @@
         </NuxtLink>
 
         <!-- Class Card 11 -->
-        <div class="group relative bg-white border border-gray-200 rounded-lg flex flex-col overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
+        <NuxtLink :to="localePath('/courses/net-play')" class="group relative bg-white border border-gray-200 rounded-lg flex flex-col overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
            <div class="aspect-w-3 aspect-h-2 bg-gray-200 group-hover:opacity-75 sm:aspect-none sm:h-48">
               <div class="bg-amber-300 w-full h-full flex items-center justify-center text-amber-800 font-bold text-lg">Volley Master</div>
            </div>
@@ -178,7 +178,7 @@
         </NuxtLink>
 
         <!-- Class Card 12 -->
-        <div class="group relative bg-white border border-gray-200 rounded-lg flex flex-col overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
+        <NuxtLink :to="localePath('/courses/match-sessions')" class="group relative bg-white border border-gray-200 rounded-lg flex flex-col overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
            <div class="aspect-w-3 aspect-h-2 bg-gray-200 group-hover:opacity-75 sm:aspect-none sm:h-48">
               <div class="bg-emerald-300 w-full h-full flex items-center justify-center text-emerald-800 font-bold text-lg">Match Play</div>
            </div>
