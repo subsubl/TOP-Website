@@ -3,10 +3,10 @@
     <div class="max-w-7xl mx-auto">
        <div class="text-center mb-16">
         <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-          Our Programs
+          {{ $t('classes.title') }}
         </h2>
         <p class="mt-4 max-w-2xl text-xl text-gray-500 mx-auto">
-          Whether you are a complete beginner or an aspiring pro, we have a class for you.
+          {{ $t('classes.subtitle') }}
         </p>
       </div>
 
@@ -195,9 +195,9 @@
       </div>
       
        <div class="mt-16 text-center">
-         <p class="text-gray-600 mb-6">Don't see what you're looking for? We offer private lessons tailored to your needs.</p>
+         <p class="text-gray-600 mb-6">{{ $t('classes.privateLesson') }}</p>
          <NuxtLink :to="localePath('/booking')" class="text-blue-600 font-semibold hover:text-blue-800 transition-colors">
-            Book a Private Lesson &rarr;
+            {{ $t('classes.bookPrivate') }}
          </NuxtLink>
        </div>
 
