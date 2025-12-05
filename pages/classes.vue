@@ -103,7 +103,7 @@
         </NuxtLink>
 
         <!-- Class Card 7 -->
-        <NuxtLink :to="localePath('/courses/paddle-power')\" class="group relative bg-white border border-gray-200 rounded-lg flex flex-col overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
+        <NuxtLink :to="localePath('/courses/paddle-power')" class="group relative bg-white border border-gray-200 rounded-lg flex flex-col overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
            <div class="aspect-w-3 aspect-h-2 bg-gray-200 group-hover:opacity-75 sm:aspect-none sm:h-48">
               <div class="bg-indigo-300 w-full h-full flex items-center justify-center text-indigo-800 font-bold text-lg">Paddle Intensive</div>
            </div>
