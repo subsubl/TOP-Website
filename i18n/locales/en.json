@@ -6,11 +6,94 @@
         "booking": "Booking",
         "prices": "Prices",
         "references": "References",
-        "contact": "Contact"
+        "contact": "Contact",
+        "about": "About",
+        "coaches": "Coaches",
+        "careers": "Careers"
     },
     "hero": {
         "title": "Unleash Your Potential",
-        "subtitle": "Join TOP – The premier destination for Paddle and Tennis excellence.",
-        "cta": "Book a Court"
+        "subtitle": "Join TOP – The premier destination for Paddle and Tennis excellence. Experience the thrill of racquet sports in our state-of-the-art facilities with professional coaching.",
+        "subtitle2": "Master your serve, perfect your volley, and improve your footwork. From beginners to advanced players, we offer programs for all skill levels.",
+        "volleyball": "Coming soon: Volleyball courses!",
+        "cta": "Book a Court",
+        "viewClasses": "View Classes"
+    },
+    "benefits": {
+        "title": "Why TOP?",
+        "coaching": {
+            "title": "Expert Coaching",
+            "description": "Our certified coaches will guide you to excellence with personalized training."
+        },
+        "courts": {
+            "title": "Premium Courts",
+            "description": "State-of-the-art tennis and paddle courts, professionally maintained."
+        },
+        "community": {
+            "title": "Vibrant Community",
+            "description": "Join a community of passionate players and make new friends."
+        }
+    },
+    "testimonials": {
+        "title": "What Our Members Say",
+        "viewAll": "View All References"
+    },
+    "classes": {
+        "title": "Our Programs",
+        "subtitle": "Whether you are a complete beginner or an aspiring pro, we have a class for you.",
+        "privateLesson": "Don't see what you're looking for? We offer private lessons tailored to your needs.",
+        "bookPrivate": "Book a Private Lesson →"
+    },
+    "course": {
+        "level": "Level",
+        "schedule": "Schedule",
+        "time": "Time",
+        "pricing": "Pricing",
+        "about": "About This Course",
+        "whatYouLearn": "What You'll Learn",
+        "ready": "Ready to Join?",
+        "readyText": "Sign up for this course and start improving your game today.",
+        "bookClass": "Book This Class",
+        "details": "Course Details",
+        "backToClasses": "Back to All Classes",
+        "notFound": "Course Not Found"
+    },
+    "prices": {
+        "title": "Pricing",
+        "subtitle": "Clear and accessible pricing for all our services",
+        "courtRentals": "Court Rentals",
+        "lessons": "Classes and Lessons",
+        "perHour": "per hour",
+        "perSession": "per session",
+        "contact": "Contact us for more information"
+    },
+    "references": {
+        "title": "References",
+        "subtitle": "Read what our members say about their experience at TOP"
+    },
+    "booking": {
+        "title": "Booking",
+        "subtitle": "Book a court or sign up for a class",
+        "name": "Name",
+        "email": "Email",
+        "phone": "Phone",
+        "date": "Date",
+        "time": "Time",
+        "type": "Booking Type",
+        "court": "Court Rental",
+        "class": "Class",
+        "message": "Message (optional)",
+        "submit": "Submit Booking",
+        "success": "Thank you! Your booking has been received."
+    },
+    "footer": {
+        "about": "About TOP",
+        "aboutText": "TOP is a premier tennis and paddle school dedicated to players of all levels. Our mission is to foster a love for the sport through excellent coaching.",
+        "programs": "Programs",
+        "contact": "Contact",
+        "address": "Address",
+        "phone": "Phone",
+        "email": "Email",
+        "rights": "All rights reserved."
     }
 }

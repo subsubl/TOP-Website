@@ -6,11 +6,94 @@
         "booking": "Reservas",
         "prices": "Precios",
         "references": "Referencias",
-        "contact": "Contacto"
+        "contact": "Contacto",
+        "about": "Acerca de",
+        "coaches": "Entrenadores",
+        "careers": "Carreras"
     },
     "hero": {
         "title": "Libera Tu Potencial",
-        "subtitle": "Únete a TOP – El destino principal para la excelencia en Pádel y Tenis.",
-        "cta": "Reservar Pista"
+        "subtitle": "Únete a TOP – El destino principal para la excelencia en Pádel y Tenis. Experimenta la emoción de los deportes de raqueta en nuestras instalaciones de vanguardia con entrenadores profesionales.",
+        "subtitle2": "Domina tu saque, perfecciona tu volea y mejora tu juego de pies. Desde principiantes hasta jugadores avanzados, ofrecemos programas para todos los niveles.",
+        "volleyball": "¡Próximamente: cursos de voleibol!",
+        "cta": "Reservar Pista",
+        "viewClasses": "Ver Clases"
+    },
+    "benefits": {
+        "title": "¿Por qué TOP?",
+        "coaching": {
+            "title": "Entrenamiento Experto",
+            "description": "Nuestros entrenadores certificados te guiarán hacia la excelencia con entrenamiento personalizado."
+        },
+        "courts": {
+            "title": "Pistas Premium",
+            "description": "Pistas de tenis y pádel de última generación, mantenidas profesionalmente."
+        },
+        "community": {
+            "title": "Comunidad Vibrante",
+            "description": "Únete a una comunidad de jugadores apasionados y haz nuevos amigos."
+        }
+    },
+    "testimonials": {
+        "title": "Lo que Dicen Nuestros Miembros",
+        "viewAll": "Ver Todas las Referencias"
+    },
+    "classes": {
+        "title": "Nuestros Programas",
+        "subtitle": "Ya seas un principiante completo o un profesional aspirante, tenemos una clase para ti.",
+        "privateLesson": "¿No encuentras lo que buscas? Ofrecemos clases privadas adaptadas a tus necesidades.",
+        "bookPrivate": "Reservar Clase Privada →"
+    },
+    "course": {
+        "level": "Nivel",
+        "schedule": "Horario",
+        "time": "Hora",
+        "pricing": "Precio",
+        "about": "Acerca de Este Curso",
+        "whatYouLearn": "Lo Que Aprenderás",
+        "ready": "¿Listo para Unirte?",
+        "readyText": "Inscríbete en este curso y comienza a mejorar tu juego hoy.",
+        "bookClass": "Reservar Esta Clase",
+        "details": "Detalles del Curso",
+        "backToClasses": "Volver a Todas las Clases",
+        "notFound": "Curso No Encontrado"
+    },
+    "prices": {
+        "title": "Precios",
+        "subtitle": "Precios claros y accesibles para todos nuestros servicios",
+        "courtRentals": "Alquiler de Pistas",
+        "lessons": "Clases y Lecciones",
+        "perHour": "por hora",
+        "perSession": "por sesión",
+        "contact": "Contáctanos para más información"
+    },
+    "references": {
+        "title": "Referencias",
+        "subtitle": "Lee lo que nuestros miembros dicen sobre su experiencia en TOP"
+    },
+    "booking": {
+        "title": "Reservas",
+        "subtitle": "Reserva una pista o inscríbete en una clase",
+        "name": "Nombre",
+        "email": "Email",
+        "phone": "Teléfono",
+        "date": "Fecha",
+        "time": "Hora",
+        "type": "Tipo de Reserva",
+        "court": "Alquiler de Pista",
+        "class": "Clase",
+        "message": "Mensaje (opcional)",
+        "submit": "Enviar Reserva",
+        "success": "¡Gracias! Tu reserva ha sido recibida."
+    },
+    "footer": {
+        "about": "Acerca de TOP",
+        "aboutText": "TOP es una escuela premier de tenis y pádel dedicada a jugadores de todos los niveles. Nuestra misión es fomentar el amor por el deporte a través de un excelente entrenamiento.",
+        "programs": "Programas",
+        "contact": "Contacto",
+        "address": "Dirección",
+        "phone": "Teléfono",
+        "email": "Email",
+        "rights": "Todos los derechos reservados."
     }
 }
