@@ -26,12 +26,16 @@
             "description": "Naši certificirani trenerji vas bodo vodili do odličnosti z osebnimi treningi."
         },
         "courts": {
-            "title": "Vrhunska Igrišča",
-            "description": "Sodobna igrišča za tenis in padel, profesionalno vzdrževana."
+            "title": "Premium Igrišča",
+            "description": "Najsodobnejša teniška in paddle igrišča, profesionalno vzdrževana."
         },
         "community": {
             "title": "Živahna Skupnost",
-            "description": "Pridružite se skupnosti strastnih igralcev in naredite nove prijatelje."
+            "description": "Pridružite se skupnosti strastnih igralcev in spoznajte nove prijatelje."
+        },
+        "family": {
+            "title": "Družinsko Prijazno",
+            "description": "Programi za vse starosti od Mini Teniških Zvez (5+) do Aktivnih Seniorjev. Prilagodljivi urniki za zaposlene družine."
         }
     },
     "testimonials": {

@@ -32,6 +32,10 @@
         "community": {
             "title": "Comunidad Vibrante",
             "description": "Únete a una comunidad de jugadores apasionados y haz nuevos amigos."
+        },
+        "family": {
+            "title": "Familiar",
+            "description": "Programas para todas las edades desde Mini Estrellas de Tenis (5+) hasta Seniors Activos. Horarios flexibles para familias ocupadas."
         }
     },
     "testimonials": {

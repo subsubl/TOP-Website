@@ -32,6 +32,10 @@
         "community": {
             "title": "Vibrant Community",
             "description": "Join a community of passionate players and make new friends."
+        },
+        "family": {
+            "title": "Family Friendly",
+            "description": "Programs for all ages from Mini Tennis Stars (5+) to Active Seniors. Flexible scheduling for busy families."
         }
     },
     "testimonials": {
