@@ -21,7 +21,7 @@
         >
            <div class="aspect-w-3 aspect-h-2 bg-gray-200 group-hover:opacity-75 sm:aspect-none sm:h-48 overflow-hidden">
               <img 
-                :src="course.image" 
+                :src="`/${course.image}`" 
                 :alt="getTranslation(course.slug, 'title')" 
                 class="w-full h-full object-cover"
               />

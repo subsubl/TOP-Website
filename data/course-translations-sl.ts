@@ -1,4 +1,9 @@
-export const courseTranslationsSl = {
+export const courseTranslationsSl: Record<string, {
+    title: string;
+    tagline: string;
+    description: string;
+    whatYouLearn: string[];
+}> = {
     'adult-fundamentals': {
         title: 'Osnove za Odrasle',
         tagline: 'Obvladajte Osnove',

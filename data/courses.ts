@@ -31,7 +31,7 @@ export const courses: Course[] = [
         level: 'Beginner',
         pricing: '$25 per session',
         color: 'blue',
-        image: '/adult_fundamentals_class.png'
+        image: 'adult_fundamentals_class.png'
     },
     {
         slug: 'junior-academy',
@@ -51,7 +51,7 @@ export const courses: Course[] = [
         level: 'Intermediate',
         pricing: '$30 per session',
         color: 'green',
-        image: '/junior_academy_action.png'
+        image: 'junior_academy_action.png'
     },
     {
         slug: 'intermediate-skills',
@@ -71,7 +71,7 @@ export const courses: Course[] = [
         level: 'Intermediate',
         pricing: '$30 per session',
         color: 'purple',
-        image: '/intermediate_skills_training.png'
+        image: 'intermediate_skills_training.png'
     },
     {
         slug: 'competition-prep',
@@ -91,7 +91,7 @@ export const courses: Course[] = [
         level: 'Advanced',
         pricing: '$40 per session',
         color: 'red',
-        image: '/competition_prep_training.png'
+        image: 'competition_prep_training.png'
     },
     {
         slug: 'doubles-mastery',
@@ -111,7 +111,7 @@ export const courses: Course[] = [
         level: 'All Levels',
         pricing: '$28 per session',
         color: 'yellow',
-        image: '/family_tennis_day.png'
+        image: 'family_tennis_day.png'
     },
     {
         slug: 'womens-circle',
@@ -131,7 +131,7 @@ export const courses: Course[] = [
         level: 'All Levels',
         pricing: '$25 per session',
         color: 'pink',
-        image: '/womens_circle_class.png'
+        image: 'womens_circle_class.png'
     },
     {
         slug: 'paddle-power',
@@ -151,7 +151,7 @@ export const courses: Course[] = [
         level: 'All Levels',
         pricing: '$30 per session',
         color: 'indigo',
-        image: '/paddle_court.png'
+        image: 'paddle_court.png'
     },
     {
         slug: 'active-seniors',
@@ -171,7 +171,7 @@ export const courses: Course[] = [
         level: 'Beginner to Intermediate',
         pricing: '$22 per session',
         color: 'teal',
-        image: '/womens_social_group.png'
+        image: 'womens_social_group.png'
     },
     {
         slug: 'mini-tennis',
@@ -191,7 +191,7 @@ export const courses: Course[] = [
         level: 'Beginner',
         pricing: '$20 per session',
         color: 'cyan',
-        image: '/kids_tennis_group.png'
+        image: 'kids_tennis_group.png'
     },
     {
         slug: 'serve-workshop',
@@ -211,7 +211,7 @@ export const courses: Course[] = [
         level: 'Intermediate to Advanced',
         pricing: '$35 per session',
         color: 'lime',
-        image: '/serve_workshop_technique.png'
+        image: 'serve_workshop_technique.png'
     },
     {
         slug: 'net-play',
@@ -231,7 +231,7 @@ export const courses: Course[] = [
         level: 'Intermediate to Advanced',
         pricing: '$32 per session',
         color: 'amber',
-        image: '/net_play_volleys.png'
+        image: 'net_play_volleys.png'
     },
     {
         slug: 'match-sessions',
@@ -251,7 +251,7 @@ export const courses: Course[] = [
         level: 'Intermediate to Advanced',
         pricing: '$30 per session',
         color: 'emerald',
-        image: '/competitive_match_play.png'
+        image: 'competitive_match_play.png'
     }
 ]
 

@@ -47,7 +47,7 @@
             <!-- Course Image -->
             <div class="rounded-lg overflow-hidden shadow-lg">
               <img 
-                :src="course.image" 
+                :src="`/${course.image}`" 
                 :alt="displayCourse.title" 
                 class="w-full h-auto object-cover"
               />
@@ -136,7 +136,7 @@ if (!course) {
 // Get translated course content based on current locale
 const displayCourse = computed(() => {
   if (locale.value === 'sl' && courseTranslationsSl[slug]) {
-    return courseTranslationsSl[slug]
+    return { ...course, ...courseTranslationsSl[slug] }
   }
   // Default to English course data
   return course
