@@ -1,18 +1,3 @@
-<template>
-  <div class="bg-white">
-    <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-24 lg:px-8">
-      <div class="text-center">
-        <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-          What Our Players Are Saying
-        </h2>
-        <p class="mt-4 max-w-2xl text-xl text-gray-500 mx-auto">
-          Don't just take our word for it. Hear from the TOP community.
-        </p>
-      </div>
-      <div class="mt-16 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-8">
-        <!-- Reusing testimonials structure more extensively here -->
-        <div class="p-6 bg-gray-50 rounded-2xl shadow-sm border border-gray-100 flex flex-col h-full">
-           <div class="flex-grow">
              <p class="text-lg text-gray-600 italic">"I've been to many clubs, but the atmosphere at TOP is unmatched. The staff genuinely cares about your experience and the courts are always in perfect condition."</p>
            </div>
            <div class="mt-6 flex items-center">
