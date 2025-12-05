@@ -44,6 +44,15 @@
               <p class="text-lg text-gray-700 leading-relaxed">{{ displayCourse.description }}</p>
             </div>
 
+            <!-- Course Image -->
+            <div class="rounded-lg overflow-hidden shadow-lg">
+              <img 
+                :src="course.image" 
+                :alt="displayCourse.title" 
+                class="w-full h-auto object-cover"
+              />
+            </div>
+
             <div>
               <h2 class="text-3xl font-bold text-gray-900 mb-6">{{ $t('course.whatYouLearn') }}</h2>
               <ul class="space-y-4">
