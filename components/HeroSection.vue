@@ -32,9 +32,9 @@
         </div>
       </div>
       <div class="md:w-1/2 relative z-10">
-         <!-- Paddle Court Image -->
+         <!-- Family Tennis Image -->
          <div class="rounded-2xl overflow-hidden shadow-2xl transform rotate-2 hover:rotate-0 transition-transform duration-500">
-            <img src="/paddle_court.png" alt="Modern Paddle Tennis Court" class="w-full h-auto object-cover md:h-[500px]" />
+            <img src="/family_tennis_day.png" alt="Families enjoying tennis together at TOP" class="w-full h-auto object-cover md:h-[500px]" />
          </div>
       </div>
     </div>
